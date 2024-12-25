@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Notes Logo">
+            <span>Notes</span>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <div class="main-content">
+            <div class="left">
+                <h1>Notes</h1>
+                <a href="./apk/NOTES.apk" class="download-btn">DOWNLOAD</a>
+                <div class="details">
+                    <span>Uploaded on: Dec 25, 2024</span>
+                    <span>Size: 6.2 MB</span>
+                </div>
+            </div>
+
+            <div class="right">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./images/slide1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/slide2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/slide3.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/slide4.jpg" alt="Fourth slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-explanation">
+            <div class="section">
+                <h2>How the APP Works</h2>
+                <div class="content">
+                    <h3>SharedPreferences</h3>
+                    <p>The app uses SharedPreferences to store user data locally on the device. This ensures that the
+                        user's notes remain accessible even after the app is closed or the device is restarted.
+                        SharedPreferences allows for easy saving and retrieval of key-value pairs, providing a
+                        lightweight and efficient way to store small amounts of data such as
+                        notes.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Operations (CRUD)</h2>
+                <div class="content">
+                    <h3>Create</h3>
+                    <p>The app allows users to create new notes through a simple interface, entering text and saving it
+                        for future reference.</p>
+
+                    <h3>Read</h3>
+                    <p>Users can view their saved notes by scrolling through a list. Each note is displayed with its
+                        title and a preview of the content.</p>
+
+                    <h3>Update</h3>
+                    <p>Notes can be edited, allowing users to update the text, title, or any other details of their
+                        existing notes.</p>
+
+                    <h3>Delete</h3>
+                    <p>Notes can be deleted at any time. Once deleted, the note is permanently removed from the app,
+                        ensuring that users have full control over their data.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Git Repository</h2>
+                <div class="content">
+                    <p>You can explore the source code and contribute to the project by visiting the official GitHub
+                        repository</p>
+                    <a href="https://github.com/Jayakrishna14s/Notes-App" target="_blank" class="btn btn-primary">View
+                        Git
+                        Repo</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+            Github: <a href="https://github.com/Jayakrishna14s/" target="_blank">Jayakrishna14s</a>
+            &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+            Linkedin: <a href="https://www.linkedin.com/in/jayakrishna-paripelli/" target="_blank">Jayakrishna
+                Paripelli</a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
