@@ -147,3 +147,33 @@ body {
     text-align: center;
     background-color: #2d2d2d;
 }
+
+
+
+
+@media (max-width: 700px) and (min-width: 500px ) {
+    .main-content{
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .project-explanation .section {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .main-content{
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .project-explanation .section {
+        width: 300px;
+    }
+
+    .footer {
+        font-size: 13px;
+    }
+}
